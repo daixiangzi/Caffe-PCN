@@ -6,10 +6,10 @@ Original repo:https://github.com/Jack-CV/FaceKit/tree/master/PCN
 caffe
 python-opencv
 numpy
-#Usage
+# Usage
 cd Caffe-PCN
 python pcn_caffe.py
-#Result
+# Result
 test image:
 ![image](https://github.com/xxxx/xxxx/xxx.png)
 Crop face:
