@@ -13,7 +13,7 @@ python pcn_caffe.py
 on CPU(i5):7-9 fps  
 on GPU(1080ti):28-31 fps  
 test image:  
-![](https://github.com/daixiangzi/Caffe-PCN/tree/master/results/test.jpg)  
+![test](https://github.com/daixiangzi/Caffe-PCN/tree/master/results/test.jpg)  
 Crop face:  
-![](https://github.com/daixiangzi/Caffe-PCN/tree/master/results/crop.jpg)
+![crop](https://github.com/daixiangzi/Caffe-PCN/tree/master/results/crop.jpg)
 
