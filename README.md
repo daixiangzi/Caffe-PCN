@@ -10,6 +10,8 @@ numpy
 cd Caffe-PCN  
 python pcn_caffe.py  
 # Result
+on CPU(i5):7-9 fps
+on GPU(1080ti):28-31 fps
 test image:
 ![image](https://github.com/xxxx/xxxx/xxx.png)
 Crop face:
