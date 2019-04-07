@@ -3,6 +3,7 @@ Detect multi angle face by PCN ,and Crop detected face
 Paper:https://arxiv.org/pdf/1804.06039.pdf  
 Original repo:https://github.com/Jack-CV/FaceKit/tree/master/PCN
 # Install 
+python2.7
 caffe  
 python-opencv  
 numpy
