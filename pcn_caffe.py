@@ -140,14 +140,14 @@ class PCN:
                         else:
                             angle = -90
                         ret.append([x,y,w,w,angle,winlist[i][5],prob[i,1]])
-                else:
-                    if maxRotateindex==0:
-                        angle=90
-                    elif maxRotateindex==1:
-                        angle = 180
                     else:
-                        angle = -90
-                    ret.append([x,h-1-(y+w-1),w,w,angle,winlist[i][5],prob[i,1]])
+                    	if maxRotateindex==0:
+                        	angle=90
+                    	elif maxRotateindex==1:
+                        	angle = 180
+                    	else:
+                        	angle = -90
+                    	ret.append([x,h-1-(y+w-1),w,w,angle,winlist[i][5],prob[i,1]])
         return ret
 
     def stage3(self,img,img180,img90,img_neg90,net,thres,dim, winlist):
@@ -391,7 +391,7 @@ def crop_face(img, face, crop_size):
     ret = cv2.warpAffine(img,rot,(crop_size,crop_size))
     return ret
 def merge_imgs(imgA,imgB):
-    if imgA == None:
+    if imgA==None:
         return imgB
     total_cols = imgA.shape[1]+imgB.shape[1]
     total_rows = max(imgA.shape[0],imgB.shape[0])
